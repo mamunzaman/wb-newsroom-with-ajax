@@ -1,0 +1,329 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mm_newsroom_wrapper .column{ margin-bottom:20px;}
+.mm_newsroom_wrapper .aligncenter { 
+    word-break: break-word;
+} 
+
+.mm_newsroom_wrapper{ padding:0 20px; }
+.equal-mason-grid{ margin-left: -15px !important;  margin-right: -15px !important; }
+.equal-mason-grid img{ margin-bottom: 15px;     } 
+.equal-mason-grid .item img{ width: auto !important;    }  
+.mm_verflow_div{ height:0px; overflow: hidden; }
+.mm_plus_img_link{ text-decoration: underline; }
+.mm_pressematerial{ color: #05326c; border-bottom: 1px solid #05326c; }
+.colum_force_width{ width:100% !important; margin:0 0 20px 0; }
+.colum_cat_space{ height:20px; border-bottom: 2px solid #05326c; } 
+
+.mm_equal_height{display: table; vertical-align: middle;}
+
+.excerpt_hide{ /*visibility:hidden;*/ display:none; }
+.mm_lastClass hr{ background: none !important;} 
+
+ul.mm_list_class{ list-style: none;
+    display: block;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    }
+ul.mm_list_class li{     
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+
+ul.mm_list_class li:last-child hr{ background-color: rgba(0,0,0,0.0) !important; }
+ul.mm_list_class p a{ opacity: 1.0 !important; font-weight: 600; color: gray;}
+
+.mb-list-ul .cbp-li{ margin-bottom: 30px; }
+
+.caption_show_hide .alignleft{ margin: 0; padding: 10px 0 5px 0; font-size: 14px; }
+
+a.mm-download-button-style{ padding: 10px 10px; border: 1px solid #848484; }
+
+@media only screen and (max-width: 767px){
+   .colum_cat_space{ height:auto;  }
+   
+   ul.mm_list_class{ 
+    margin: 0 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.wb_mm_slider {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .wb_mm_slick-slide {
+      margin: 0px 20px;
+    }
+
+    .wb_mm_slick-slide img {
+      width: 100%;
+    }
+
+    .wb_mm_slick-prev:before,
+    .wb_mm_slick-next:before {
+      color: black;
+    }
+
+
+    .wb_mm_slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .wb_mm_slick-active {
+      opacity: .5;
+    }
+
+    .wb_mm_slick-current {
+      opacity: 1;
+    }
+
+.slick-next {
+    right: -30px !important;
+}
+
+ 
+/*
+
+   Styles for animated modal
+   =========================
+
+*/
+
+/* Start state */
+.animated-modal {
+  max-width: 550px;
+  border-radius: 4px;
+  overflow: hidden;
+  
+  transform: translateY(-50px);
+  transition: all .7s;
+}
+
+.animated-modal h2,
+.animated-modal p {
+  transform: translateY(-50px);
+  opacity: 0;
+  
+  transition-property: transform, opacity;
+  transition-duration: .4s;
+}
+
+/* Final state */
+.fancybox-slide--current .animated-modal,
+.fancybox-slide--current .animated-modal h2,
+.fancybox-slide--current .animated-modal p {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Reveal content with different delays */
+.fancybox-slide--current .animated-modal h2 {
+  transition-delay: .1s;
+}
+
+.fancybox-slide--current .animated-modal p {
+  transition-delay: .3s;
+}
+
+/****
+THIS IS FOR THE MODAL WIDTH PRESS
+*****/
+#hidden-content,
+#fotodownload-der-pressebilder{
+width: 100%;
+  max-width: 800px;
+}
+.mm_plus_img_link{     word-break: break-all; } 
+.mm-column_override .row_single_press_holder >.column:first-child{ margin-left:0 !important; }
+
+select.mm_custom_select{
+    background: url(https://www.messe-bremen.de/wp-content/uploads/2018/08/arrow-down-sign-to-navigate.png) 10px no-repeat;
+    background-color: #efedeb;
+    background-position: 97%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-size: 20px;
+}
+
+.mm_form_holder label{ display: inline; color: white; }
+
+.mm_form_holder select{ display: inline;}
+
+
+.cbp-rfgrid {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	width: 100%;
+}
+
+.cbp-rfgrid .cbp-li{
+	position: relative; 
+	float: left;
+	overflow: hidden;
+	width: 16.6666667%; /* Fallback */
+	width: -webkit-calc(100% / 5);
+	width: calc(100% / 5);
+}
+ 
+
+/* Example for media query: change number of items per row */
+
+@media screen and (max-width: 1190px) {
+	.cbp-rfgrid .cbp-li {
+		width: 20%; /* Fallback */
+		width: -webkit-calc(100% / 5);
+		width: calc(100% / 5); 
+	}
+}
+
+@media screen and (max-width: 1240px) {
+	.cbp-rfgrid .cbp-li {
+		width: 25%; /* Fallback */
+		width: -webkit-calc(100% / 4);
+		width: calc(100% / 4);
+	}
+}
+
+@media screen and (max-width: 945px) {
+	.cbp-rfgrid .cbp-li {
+		width: 33.3333333%; /* Fallback */
+		width: -webkit-calc(100% / 3);
+		width: calc(100% / 3);
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.cbp-rfgrid .cbp-li {
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+	
+	.mm_newsroom_wrapper{ padding: 10px !important; }
+	 
+}
+
+@media screen and (max-width: 660px) {
+	.cbp-rfgrid .cbp-li {
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.cbp-rfgrid .cbp-li {
+		width: 50%; /* Fallback */
+		width: -webkit-calc(100% / 1);
+		width: calc(100% / 1);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cbp-rfgrid .cbp-li {
+		width: 100%;
+	}
+} 
+
+
+.new-color{ color:#626262 !important; padding:4px 0 4px 0 !important;     margin: 0px 0px !important;
+    font-size: 14px !important;}
+.automoreless a.mehr-less-for-page{ float:left;}   
+
+
+/*****
+template based customization
+*********************************/
+.mm_list_class_child h6{
+    color: #c7d416 !important;
+}
+
+a.mehr-less-for-page,
+a.mehr-less-for-page:hover{
+    color: #c10a25 !important;
+}
+
+.caption_show_hide h6,
+.mb-list-ul h6{
+    color: #737E86 !important;
+}
+
+.mm_list_class_child a.button.btn-view span.button_label.button{
+    border-width:0 !important;
+}
+
+/*****************
+ends here 
+***************************/
+
+
+/* GENERAL STYLES */
+
+.pagination{
+  padding: 30px 0;
+}
+
+.pagination ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination a{
+  display: inline-block;
+  padding: 10px 18px;
+  color: #222;
+}
+
+
+.pagination li {
+  float: left;
+}
+
+
+
+/* TWELVE */
+
+.p12 a:first-of-type, .p12 a:last-of-type, .p12 .is-active{
+  background-color: #D9D9D9;
+  color: #000;
+  font-weight: bold;
+}
+
+    .button.new-color{ background: transparent;}
+
+    /*.btn-view {
+            border-color: #003367 !important;
+    border: 1px solid #003367;
+    }*/
+        /*.btn-view:hover {
+            background-color: #bbb !important;
+    }*/
+    
+    .button.btn-view .button_label.button{     font-weight: 400; 
+    color: #c10a25; 
+    }
+    
+.mm-download-button-style a,
+.caption_show_hide p a{
+     font-weight: 400 !important; 
+     /*text-transform: uppercase;
+     color: black !important;*/
+    }    
